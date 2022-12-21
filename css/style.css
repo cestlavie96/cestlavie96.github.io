@@ -76,12 +76,13 @@ h1.logo a{
 }
 .banner-text p{
     color: #fff;
+    font-family: "Raleway", sans-serif;
 }
 .banner a{
     text-decoration: none;
     display: inline-block;
     padding: 1em;
-    background-color: #312126;
+    background-color: #312a26;
     font-weight: 700;
     margin-top: 1em;
     font-family: "Raleway", sans-serif;
@@ -91,4 +92,21 @@ h1.logo a{
     width: 85%;
     margin: 4em auto;
     overflow: auto;
+}
+.ads-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+.ads1{
+    margin-right: 3%;
+    background-image: url(../img/images/ads-img1.jpg);
+}
+.ads2{
+    margin-right: 3%;
+    background-image: url(../img/images/ads-img2.jpg);
 }
