@@ -74,3 +74,20 @@ h1.logo a{
 .banner-text h2 span{
     color: #c7a17a;
 }
+.banner-text p{
+    color: #fff;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: #312126;
+    font-weight: 700;
+    margin-top: 1em;
+    font-family: "Raleway", sans-serif;
+}
+.ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
