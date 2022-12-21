@@ -35,7 +35,7 @@ h1.logo a{
     text-decoration: none;
 }
 .header ul{
-    width: 50vw;
+    width: 50%;
     float: left;
     text-align: right;
     padding: 1em;
