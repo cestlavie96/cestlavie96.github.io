@@ -105,10 +105,13 @@ h1.logo a{
 .ads1{
     margin-right: 3%;
     background-image: url(../img/images/ads-img1.jpg);
+
 }
 .ads2{
     margin-right: 3%;
     background-image: url(../img/images/ads-img2.jpg);
+    
+    
 }
 .ads-items h3{
     text-transform: uppercase;
