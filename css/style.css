@@ -125,3 +125,28 @@ h1.logo a{
     text-transform: uppercase;
     text-shadow: 3px 3px 6px #312a26;
 }
+.merch{
+    width: 85%;
+    margin: 4em auto;
+
+}
+.merch-header{
+    text-align: center;
+}
+.merch-header span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #c7a17a;
+}
+.merch-header h2{
+    text-transform: uppercase;
+    color: #312a26;
+    
+}
+.merch-header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
