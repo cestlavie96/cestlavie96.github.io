@@ -59,3 +59,18 @@ h1.logo a{
     height: 670px;
 
 }
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform: translateY(-50%);
+    width: 45%;
+}
+.banner-text h2{
+    color: #96746b;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.banner-text h2 span{
+    color: #c7a17a;
+}
