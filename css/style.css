@@ -161,3 +161,28 @@ h1.logo a{
 .merch-items:nth-child(4), .merch-items:nth-child(8){
     margin-right: 0;
 }
+.sale{
+    width: 85%;
+    margin: 4em auto;
+
+}
+.sale-header{
+    text-align: center;
+}
+.sale-header span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #c7a17a;
+}
+.sale-header h2{
+    text-transform: uppercase;
+    color: #312a26;
+    
+}
+.sale-header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
