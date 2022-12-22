@@ -193,3 +193,31 @@ h1.logo a{
 .sale-items:nth-child(4), .sale-items:nth-child(8){
     margin-right: 0;
 }
+.inform{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+.inform-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+.in1{
+    margin-right: 3%;
+    background-image: url(../img/images/ads-img3.jpg);
+}
+.in2{
+    background-image: url(../img/images/ads-img4.jpg);
+}
+.in3{
+    margin-right: 3%;
+    background-image: url(../img/images/ads-img5.jpg);
+}
+.in4{
+    background-image: url(../img/images/ads-img6.jpg);
+}
