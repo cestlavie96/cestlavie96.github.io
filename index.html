@@ -227,17 +227,57 @@
             <hr>
           </div>
           <form action="#" method="#">
+            <!--start of the left-form-->
             <div class="form-group">
               <label for="full-mane">Full Name</label>
               <input type="full-name" id="full-name" name="full-name" placeholder="Last Name, First Name" required>
               <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="mail@mail.com">
+              <input type="email" id="email" name="email" placeholder="mail@mail.com" required>
               <label for="phone">Phone Number</label>
-              <input type="number" id="phone" name="phone">
+              <input type="number" id="phone" name="phone" placeholder="(+63)912345678" required>
+              <p>Reservation Details</p>
+              <label for="guest-num"> Number of Guests</label>
+              <select name="guest-num" id="guest-num" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">more than 4</option>
+              </select>
+              <label for="res-date">Reservation Date</label>
+              <input type="date" id="res-date" name="res-date" required>
+              <label for="res-time">Reservation Time</label>
+              <div class="res-time">
+                <input type="radio" id="am" name="time" value="am" required>
+                <label for="am">Morning</label>
+                <input type="radio" id="pm" name="time" value="pm" required>
+                <label for="pm">Afternoon</label>
+                <input type="radio" id="night" name="time" value="night" required>
+                <label for="night">Night</label>
+              </div>
               
            
 
             </div>
+            <!--end of the left-form-->
+            <!--start of the rigth-form-->
+            <div class="form-group">
+              <label for="request">Additional Request</label>
+              <textarea name="request" id="request" cols="30" rows="10"></textarea>
+              <p>Payment</p>
+              <label for="name-card">Full Name</label>
+              <input type="text" id="name-card" name="name-card" placeholder="John Doe" required>
+              <label for="cc-num">Credit Card Number</label>
+              <input type="number" id="cc-num" name="cc-num" placeholder="1234567890" required>
+              <div class="terms">
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree in the terms conditions.</label>
+              </div>
+              <input type="submit" name="submit" value="submit">
+              
+
+            </div>
+            <!--end of the rigth-form-->
 
 
           </form>
