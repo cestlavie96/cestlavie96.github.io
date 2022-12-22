@@ -186,3 +186,10 @@ h1.logo a{
     width: 25%;
     margin: auto;
 }
+.sale-gallery{
+    margin-top: 2em;
+    overflow: auto;
+}
+.sale-items:nth-child(4), .sale-items:nth-child(8){
+    margin-right: 0;
+}
