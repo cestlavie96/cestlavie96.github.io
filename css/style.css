@@ -313,6 +313,13 @@ h1.logo a{
     text-transform: uppercase;
     text-shadow: 3px 3px 6px #312a26;
 }
+.inform-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%,);
+    width: 40%;
+}
 .reservation{
     width: 85%;
     margin: 4em auto;
