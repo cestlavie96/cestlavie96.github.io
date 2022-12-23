@@ -51,7 +51,7 @@ h1.logo a{
     text-decoration: none;
 }
 .banner{
-    background-image: url(../img/banner-bg.jpg);
+    background-image: url(../img/images/banner-bg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -171,7 +171,8 @@ h1.logo a{
     margin-right: 1%;
     margin-bottom: 1%;
 }
-.merch-items:nth-child(4), .merch-items:nth-child(8){
+.merch-items:nth-child(4), 
+.merch-items:nth-child(8){
     margin-right: 0;
 }
 .merch-items img{
