@@ -225,6 +225,7 @@ h1.logo a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     margin-top: 1em;
+    text-decoration: none;
 }
 .sale{
     width: 85%;
@@ -375,13 +376,18 @@ form h3::after{
 .res-agreement *{
     width: auto;
 }
-.form input[type="submit"]{
+form input[type="submit"]{
     background-color: #c7a17a;
     font-weight: 700;
     text-transform: uppercase;
 }
 form h2{
     text-transform: uppercase;
-    text-decoration: underline;
     text-align: center;
+}
+.header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
 }
