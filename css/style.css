@@ -198,6 +198,11 @@ h1.logo a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.discount-text p{
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+
+}
 .discount-text span{
     font-family: 'Raleway', sans-serif;
     color: #fff;
@@ -249,7 +254,14 @@ h1.logo a{
     margin-top: 2em;
     overflow: auto;
 }
-.sale-items:nth-child(4), .sale-items:nth-child(8){
+.sale-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.sale-items:nth-child(4), 
+.sale-items:nth-child(8){
     margin-right: 0;
 }
 .inform{
