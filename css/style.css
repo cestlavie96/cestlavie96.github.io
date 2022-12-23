@@ -201,6 +201,7 @@ h1.logo a{
 .discount-text p{
     color: #fff;
     font-family: 'Raleway',sans-serif;
+    text-decoration: none;
 
 }
 .discount-text span{
@@ -374,4 +375,9 @@ form h3::after{
     background-color: #c7a17a;
     font-weight: 700;
     text-transform: uppercase;
+}
+form h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
 }
