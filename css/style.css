@@ -109,12 +109,12 @@ h1.logo a{
 }
 .ads1{
     margin-right: 3%;
-    background-image: url(../img/images/ads-img1.jpg);
+    background-image: url('../img/images/ads-img1.jpg');
 
 }
 .ads2{
     
-    background-image: url(../img/images/ads-img2.jpg);
+    background-image: url('../img/images/ads-img2.jpg');
 }
 .ads-text {
     position: absolute;
@@ -189,7 +189,7 @@ h1.logo a{
 .discount{
     width: 85%;
     margin:  4em auto;
-    background-image: url(../img/images/discount-img.jpg);
+    background-image: url('../img/images/discount-img.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -292,17 +292,17 @@ h1.logo a{
 }
 .in1{
     margin-right: 3%;
-    background-image: url(../img/images/ads-img3.jpg);
+    background-image: url('../img/images/ads-img3.jpg');
 }
 .in2{
-    background-image: url(../img/images/ads-img4.jpg);
+    background-image: url('../img/images/ads-img4.jpg');
 }
 .in3{
     margin-right: 3%;
-    background-image: url(../img/images/ads-img5.jpg);
+    background-image: url('../img/images/ads-img5.jpg');
 }
 .in4{
-    background-image: url(../img/images/ads-img6.jpg);
+    background-image: url('../img/images/ads-img6.jpg');
 }
 .inform-items h3{
     text-transform: uppercase;
@@ -400,7 +400,8 @@ form h3::after{
     height: 30px;
     margin: auto;
 }
-.res-agreement *{
+
+.terms *{
     width: auto;
 }
 form input[type="submit"]{
@@ -432,13 +433,14 @@ form input[type="submit"]{
     margin: auto;
     overflow: auto;
 }
-.footer-contents:nth-child(4){
-    margin-right: 0;
-}
+
 .footer-widgets{
     width: 24.5%;
     float: left;
     margin-right: 1%;
+}
+.footer-widgets:nth-child(4){
+    margin-right: 0;
 }
 .footer-widgets h3{
     color: #fff;
