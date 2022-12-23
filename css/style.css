@@ -261,10 +261,7 @@ h1.logo a{
     margin-right: 1%;
     margin-bottom: 1%;
 }
-.sale-items:nth-child(4), 
-.sale-items:nth-child(8){
-    margin-right: 0;
-}
+
 .inform{
     width: 85%;
     margin: 4em auto;
