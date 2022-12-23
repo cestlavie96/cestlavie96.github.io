@@ -409,11 +409,16 @@ form input[type="submit"]{
 }
 .footer-contents{
     width: 85%;
-    float: left;
-    margin-right: 1%;
+    margin: auto;
+    overflow: auto;
 }
 .footer-contents:nth-child(4){
     margin-right: 0;
+}
+.footer-widgets{
+    width: 24.5%;
+    float: left;
+    margin-right: 1%;
 }
 .footer-widgets h3{
     color: #fff;
