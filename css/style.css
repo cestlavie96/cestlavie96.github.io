@@ -266,6 +266,9 @@ h1.logo a{
     height: 350px;
     object-fit: cover;
 }
+.merch-items:nth-child(4){
+    margin-right: 0;
+}
 .inform{
     width: 85%;
     margin: 4em auto;
