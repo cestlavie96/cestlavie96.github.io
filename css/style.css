@@ -413,16 +413,18 @@ form input[type="submit"]{
     font-weight: 700;
     text-transform: uppercase;
 }
-.header h2{
-    text-transform: uppercase;
+.reservation .header{
     text-align: center;
 }
-.header hr{
+.reservation .header h2{
+    text-transform: uppercase;
+    color:#312a26;
+}
+.reservation .header hr{
     background-color: #c7a17a;
     height: 2px;
     width: 25%;
     margin: auto;
-    text-align: center;
 }
 /* Footer Area */
 .footer{
