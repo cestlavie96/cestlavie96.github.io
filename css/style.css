@@ -343,6 +343,9 @@ h1.logo a{
     text-transform: uppercase;
     color: #312a26;
 }
+.header{
+    text-align: center;
+}
 .reservation .header hr{
     background-color: #c7a17a;
     height: 2px;
