@@ -384,7 +384,7 @@ form label{
 .res-time *{
     width: auto;
 }
-form p *{
+form p{
     margin: 1em;
     text-align: center;
     font-weight: 700;
